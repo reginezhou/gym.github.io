@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+</head>
+<body style="background-color:lavender;">
+    <nav>
+        <a href="index.html">About Us</a> |
+        <a href="page2.html">Contact Us</a> |
+    </nav>
+<h1 style= "font-family: Rockwell; color: white;  border:3px solid black;background-color:orchid;">Contact Us</h1>
+
+<p style= "color:darkslategray; font-family: Rockwell; text-align: center; font-size:150%;"> 
+Operating Hours: </p>
+
+<p style= "color:darkslategray; font-family: Rockwell; text-align: center; background-color: white"> 24/7 Monday to Sunday (PH might differ)</p>
+
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; font-size:150%"> 
+Tel: </p>
+
+<p style= "color:darkslategray; font-family: Rockwell; text-align: center; background-color: white">+65 8868 0210</p>
+
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; font-size:150%"> 
+Address: </p>
+
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; background-color: white"> Rivervale Mall, 11 Rivervale Cres, 2F, 545082</p>
+
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; font-size:150%"> 
+How to get here: </p>
+
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; background-color: white"> By Mrt: Sengkang Station--> LRT(East Loop) to Rumbia Station <br> By Bus: 119, 136, 88, 89 </p>
+
+    
+</body>
+</html>
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; font-size:150%"> Membership Enquiries? </p>
+
+<p style= "color:darkslategray; font-family: Rockwell;text-align: center; background-color: white"> Simply complete this form and we will get in touch!</p> </div>
+
+<div class="form-body hidden">
+<form id=form-club-membership-inquiry action="javascript:;" enctype="multipart/form-data">
+<div class=form-group>
+<label for=firstname>First Name</label>
+
+<img src= "rivervalemall.png" alt="locationmap" style="float:right; width="250" height="230";">
+
+<input class=form-control id=firstname name=firstname data-parsley-trigger=change required />
+</div>
+<div class=form-group>
+<label for=lastname>Last Name</label>
+<input class=form-control id=lastname name=lastname data-parsley-trigger=change required />
+</div>
+<div class=form-group>
+<label for=email>Email</label>
+<input type=email class=form-control id=email name=email data-parsley-trigger=change required maxlength=100 />
+</div>
+<div class="form-group form-group-phone">
+<div class=phone-container>
+<label for=phone>Phone</label>
+<input type=tel class=form-control id=phone name=phone data-parsley-trigger=change required maxlength=20 data-parsley-phone-format=""/>
+</div>
+<div class="checkbox mobile-container">
+<label class=mobile-label for=Mobile>
+<input type=checkbox name=Mobile id=Mobile value=true checked />
+Mobile </label>
+</div>
+</div>
+<input type=hidden name=Address />
+<div class=form-group>
+<label for=Address1>Address</label>
+<input class=form-control id=Address1 name=Address1 data-parsley-trigger=change required maxlength=50 />
+</div>
+<div class=form-group>
+<label for=Address2>Suite, Apt #, etc...</label>
+<input class=form-control name=Address2 id=Address2 maxlength=50 />
+</div>
+<div class=form-group>
+<label for=City>City</label>
+<input class=form-control name=City id=City data-parsley-trigger=change required maxlength=80 />
+</div>
+<div class=form-group>
+<label for=StateProvince>State / Province*</label>
+<select class="form-control inline-bs-select selectpicker" id=StateProvince name=StateProvince data-parsley-trigger=change required>
+<option value="">Select...</option><optgroup label=Singapore><option value="Central Singapore" data-state-id=353>Central Singapore</option><option value="North East" data-state-id=356>North East</option><option value="North West" data-state-id=357>North West</option><option value="South East" data-state-id=354>South East</option><option value="South West" data-state-id=355>South West</option></optgroup> </select>
+</div>
+<div class=form-group>
+<label for=PostCode>Zip Code</label>
+<input class=form-control name=PostCode id=PostCode data-parsley-trigger=change required maxlength=20 />
+</div>
+<div class=form-notes>
+</div>
+<div data-callback=submit_form_checked class=g-recaptcha data-sitekey=6LdBgEMUAAAAADX2lMRwSMNZdwE_y2MBzHaqSZzs data-size=invisible>
+</div>
+<div class=form-footer>
+<button class="btn btn-rounded btn-border btn-white btn-sml btn-submit-form" type=submit>
+Submit <span class=arrow>
+<span class=hover></span>
+</span>
+<span class=loading></span>
+</button>
+<a class="btn btn-sml btn-clear btn-cancel" href="https://www.anytimefitness.sg/gyms/sg-0030/sengkang-rivervale-north-east-545082/">Cancel</a>
+</div>
